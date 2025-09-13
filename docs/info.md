@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-It just works
+Hook up ADALM2k to input port 1 and watch as the output LED lights up based on the input current received
 
 ## How to test
 
