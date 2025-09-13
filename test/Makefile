@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = tt_um_Xgamer1999_LIF.v LIF_neuron_FSM.v top_lvl.v LIF_Accumulator.v LIF_neuron.v 
 
 ifneq ($(GATES),yes)
 
