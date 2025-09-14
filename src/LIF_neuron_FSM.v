@@ -13,7 +13,9 @@ module LIF_neuron_FSM #(
     output reg add_en,
     output reg sub_en,
     output reg load_reset,
-    output reg signal_out
+    output reg signal_out,
+    output wire [2:0] state_dbg
+
 );
 
     reg [2:0] state, state_n;
@@ -78,4 +80,5 @@ module LIF_neuron_FSM #(
             state = state_n;
         end
     end
+    assign state_dbg = state;
 endmodule

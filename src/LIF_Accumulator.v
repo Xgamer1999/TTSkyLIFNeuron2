@@ -45,6 +45,8 @@ always @(posedge clk) begin
     end
     else begin
         acc <= acc_n;
+        $display("🔧 T=%0t | acc=%d | acc_n=%d | add_en=%b | sub_en=%b | load_reset=%b", 
+             $time, acc, acc_n, add_en, sub_en, load_reset);
     end
 end
 endmodule
