@@ -8,8 +8,8 @@ module tt_um_top_lvl(
     input wire rst_n,
     input wire signal_in,//signal provided by the user
     output wire signal_out,//output to an LED on board
-    output wire [2:0] state_dbg, // debug state output
-    output wire spike  // alias for signal_out (if not already connected)
+   // output wire [2:0] state_dbg, // debug state output
+   // output wire spike  // alias for signal_out (if not already connected)
 
 );
 
@@ -43,10 +43,10 @@ LIF_neuron_FSM u_fsm (
     .add_en(add_en),
     .sub_en(sub_en),
     .load_reset(load_reset),
-    .thresh_hit(thresh_hit),
-    .signal_out(spike),         // output from FSM
-    .state_dbg(state_dbg)       // new debug signal
+    .thresh_hit(thresh_hit)//,
+    //.signal_out(spike),         // output from FSM
+    //.state_dbg(state_dbg)       // new debug signal
 );
-assign signal_out = spike; // connect spike to signal_out
+//assign signal_out = spike; // connect spike to signal_out
 
 endmodule

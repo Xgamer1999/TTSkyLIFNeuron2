@@ -16,7 +16,7 @@ module LIF_neuron (
   wire signal_out;
 
   // instantiate your actual top
-  tt_um_top_lvl tt_um_Xgamer1999_LIF (
+  tt_um_top_lvl u_top (
     .clk(clk),
     .rst_n(rst_n),
     .signal_in(signal_in),

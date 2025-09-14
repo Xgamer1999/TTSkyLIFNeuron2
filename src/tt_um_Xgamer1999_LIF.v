@@ -14,7 +14,7 @@ module tt_um_Xgamer1999_LIF (
   wire user_in  = ui_in[0] & ena;
   wire out_bit;
 
-  tt_um_top_lvl tt_um_Xgamer1999_LIF (
+  tt_um_top_lvl u_top (
     .clk(clk),
     .rst_n(rst_n),
     .signal_in(user_in),
