@@ -25,7 +25,7 @@ LIF_Accumulator #(
     .add_en(add_en),
     .sub_en(sub_en),
     .load_reset(load_reset),
-    .add(8'd5),
+    .add(8'd25),
     .sub(8'd1),
     .VRESET(8'd0),
     .acc(acc),
