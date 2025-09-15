@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Demonstration of Leaky integrate and Fire neuron"      # Project title
+  title:        "Demonstration of Leaky integrate and Fire neuron SJSU"      # Project title
   author:       "Andres Zuniga, Arsh Shergill"      # Your name
   discord:      "Wendys baconator, Fire"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "Digital simplification of biological neuron commonly used in Neural Networks"      # One line description of what your project does
